@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Thesis management service",
+        "description": "Web service for thesis management. Promoters have the possibility of adding a thesis and becoming a supervisor of a thesis proposed by a student. Students have a possibility to sign up for a given thesis topic or add their own proposals. Administrators manage users in the system. A project carried out as part of an engineering thesis.",
+        "path": "assets/img/thesis.png",
+        "skills": [".NET Core", "Angular", "PostgreSQL"]
+    },
+    {
+        "name": "Skillbag",
+        "description": "The SKILLBAG service showcases student projects, skills and competencies.",
+        "path": "assets/img/skillbag.png",
+        "skills": ["Symfony", "Javascript", "MySQL"]
+    },
+    {
+        "name": "AI Game",
+        "description": "Simulation of a computer game, where players (red blocks) must shoot down other players with missiles (yellow blocks). The game ends when there is only one player left on the board or when the set time has passed. The player with the most points wins. Points can be scored in many ways: by hitting or eliminating the opponent or even by moving (no campers). At the beginning, players move in a completely random way, but with the help of a genetic algorithm, on the basis of the best individuals (with the most points) we create new generations of players, who are already more \"taught\" how to eliminate opponents and not be hit. Because the learning process is long in the game it is possible to run an accelerated simulation of x iterations of the game, and then select the standard game mode to see what behavior the players have learned.",
+        "path": "assets/img/aigame.png",
+        "skills": ["Unity", "C#"]
+    },
+    {
+        "name": "Moving in 3D space",
+        "description": "A program that represents a three-dimensional scene using perspective projection. There are 3 solids in the scene around which you can move using scaling, translation and rotation. Shading is used and the solids are covered with a painting algorithm.",
+        "path": "assets/img/3d.png",
+        "skills": ["C#"]
+    },
+    {
+        "name": "Currency Converter",
+        "description": "Simple window application converting PLN to other currencies according to current conversion rate",
+        "path": "assets/img/currencyconverter.png",
+        "skills": ["Python", "TkInter"]
+    },
+    {
+        "name": "Selection of exam dates",
+        "description": "A window application which schedules exams so that they do not take place at the same time if the same student takes them. Graph coloring algorithm is used for this purpose.",
+        "path": "assets/img/examdates.png",
+        "skills": ["C#", "WPF"]
+    },
+    {
+        "name": "The problem of feasting philosophers",
+        "description": "A console application representing the problem of feasting philosophers using multithreaded programming",
+        "path": "assets/img/philosophers.png",
+        "skills": ["C#"]
+    }
+]
