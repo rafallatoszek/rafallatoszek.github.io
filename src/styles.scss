@@ -1,6 +1,10 @@
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -144,6 +148,7 @@ button.bg-primary:focus {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
     color: #3f7fff;
+    cursor: pointer;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
