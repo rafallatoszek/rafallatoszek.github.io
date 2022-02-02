@@ -24,6 +24,12 @@
         "skills": ["C#"]
     },
     {
+        "name": "Forward and Reverse Automatic Differentiation",
+        "description": "The paper succeeds in confirming the assumption made in the thesis that the backward autodifferential algorithm is more efficient than the forward one. In this conclusion, we consider a larger number of input parameters, since such cases will occur most often in the real world. In terms of implementation, this forward automatic differentiation is more accessible to those beginning their research in this area. It was successfully brought to a form where it could be used in solving a real-world problem of learning a neural network using backward error propagation.",
+        "path": "assets/img/differentiation.png",
+        "skills": ["Julia"]
+    },
+    {
         "name": "Currency Converter",
         "description": "Simple window application converting PLN to other currencies according to current conversion rate",
         "path": "assets/img/currencyconverter.png",
