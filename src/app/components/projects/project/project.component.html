@@ -16,13 +16,13 @@
                 <!-- Portfolio Modal - Text-->
                 <div class="row justify-content-center justify-content-center">
                     <h3 *ngFor="let skill of project.skills">
-                        <span class="badge badge-secondary mx-1">{{ skill }}</span>
+                        <span class="badge badge-dark mx-1">{{ skill }}</span>
                     </h3>
                 </div>
-                <p class="mb-5">{{ project.description }}</p>
-                <a *ngIf="project.url" class="btn btn-outline-secondary btn-social mx-2" target="_blank"
+                <p class="mb-2">{{ project.description }}</p>
+                <a *ngIf="project.url" class="btn btn-outline-dark btn-social mx-2" target="_blank"
                     href="{{ project.url }}"><i class="fas fa-globe"></i></a>
-                <a *ngIf="project.github" class="btn btn-outline-secondary btn-social mx-2" target="_blank"
+                <a *ngIf="project.github" class="btn btn-outline-dark btn-social mx-2" target="_blank"
                     href="{{ project.github }}"><i class="fab fa-fw fa-github"></i></a>
             </div>
         </div>
