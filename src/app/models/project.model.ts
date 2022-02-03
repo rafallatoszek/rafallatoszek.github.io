@@ -3,4 +3,6 @@ export class Project {
     description: string;
     path: string;
     skills: string[];
+    url: string;
+    github: string;
 }

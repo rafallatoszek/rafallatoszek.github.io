@@ -3,48 +3,64 @@
         "name": "Thesis management service",
         "description": "Web service for thesis management. Promoters have the possibility of adding a thesis and becoming a supervisor of a thesis proposed by a student. Students have a possibility to sign up for a given thesis topic or add their own proposals. Administrators manage users in the system. A project carried out as part of an engineering thesis.",
         "path": "assets/img/thesis.png",
-        "skills": [".NET Core", "Angular", "PostgreSQL"]
+        "skills": [".NET Core", "Angular", "PostgreSQL"],
+        "url": "",
+        "github": ""
     },
     {
         "name": "Skillbag",
         "description": "The SKILLBAG service showcases student projects, skills and competencies.",
         "path": "assets/img/skillbag.png",
-        "skills": ["Symfony", "Javascript", "MySQL"]
+        "skills": ["Symfony", "Javascript", "MySQL"],
+        "url": "https://skillbag.sggw.pl/",
+        "github": ""
     },
     {
         "name": "AI Game",
         "description": "Simulation of a computer game, where players (red blocks) must shoot down other players with missiles (yellow blocks). The game ends when there is only one player left on the board or when the set time has passed. The player with the most points wins. Points can be scored in many ways: by hitting or eliminating the opponent or even by moving (no campers). At the beginning, players move in a completely random way, but with the help of a genetic algorithm, on the basis of the best individuals (with the most points) we create new generations of players, who are already more \"taught\" how to eliminate opponents and not be hit. Because the learning process is long in the game it is possible to run an accelerated simulation of x iterations of the game, and then select the standard game mode to see what behavior the players have learned.",
         "path": "assets/img/aigame.png",
-        "skills": ["Unity", "C#"]
+        "skills": ["Unity", "C#"],
+        "url": "",
+        "github": "https://github.com/Nephasia/AIGame"
     },
     {
         "name": "Moving in 3D space",
         "description": "A program that represents a three-dimensional scene using perspective projection. There are 3 solids in the scene around which you can move using scaling, translation and rotation. Shading is used and the solids are covered with a painting algorithm.",
         "path": "assets/img/3d.png",
-        "skills": ["C#"]
+        "skills": ["C#"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/ComputerGraphics3D"
     },
     {
         "name": "Forward and Reverse Automatic Differentiation",
         "description": "The paper succeeds in confirming the assumption made in the thesis that the backward autodifferential algorithm is more efficient than the forward one. In this conclusion, we consider a larger number of input parameters, since such cases will occur most often in the real world. In terms of implementation, this forward automatic differentiation is more accessible to those beginning their research in this area. It was successfully brought to a form where it could be used in solving a real-world problem of learning a neural network using backward error propagation.",
         "path": "assets/img/differentiation.png",
-        "skills": ["Julia"]
+        "skills": ["Julia"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/Forward-Reverse-Automatic-Differentiation"
     },
     {
         "name": "Currency Converter",
         "description": "Simple window application converting PLN to other currencies according to current conversion rate",
         "path": "assets/img/currencyconverter.png",
-        "skills": ["Python", "TkInter"]
+        "skills": ["Python", "TkInter"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/CurrencyConverter"
     },
     {
         "name": "Selection of exam dates",
         "description": "A window application which schedules exams so that they do not take place at the same time if the same student takes them. Graph coloring algorithm is used for this purpose.",
         "path": "assets/img/examdates.png",
-        "skills": ["C#", "WPF"]
+        "skills": ["C#", "WPF"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/ExamDates"
     },
     {
         "name": "The problem of feasting philosophers",
         "description": "A console application representing the problem of feasting philosophers using multithreaded programming",
         "path": "assets/img/philosophers.png",
-        "skills": ["C#"]
+        "skills": ["C#"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/DiningPhilosophersProblem"
     }
 ]
