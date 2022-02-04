@@ -32,22 +32,6 @@
         "github": "https://github.com/rafallatoszek/Docker-Compose-Validator"
     },
     {
-        "name": "Automation with Github Actions",
-        "description": "The goal of the project is to perform automation using CI/CD. The application consists of two layers: backend and frontend. The automation will be performed using GitHub Actions and the application will be published on the Azure platform. The steps carried out in the automation: build the environment on the backend and frontend side, run the tests, on the result of which depends on the further steps of automation, publish and deploy the application.",
-        "path": "assets/img/automation.png",
-        "skills": [".NET Core", "Angular", "Azure", "Automation"],
-        "url": "",
-        "github": "https://github.com/rafallatoszek/Automation-with-Github-Actions"
-    },
-    {
-        "name": "AI Game",
-        "description": "Simulation of a computer game, where players (red blocks) must shoot down other players with missiles (yellow blocks). The game ends when there is only one player left on the board or when the set time has passed. The player with the most points wins. Points can be scored in many ways: by hitting or eliminating the opponent or even by moving (no campers). At the beginning, players move in a completely random way, but with the help of a genetic algorithm, on the basis of the best individuals (with the most points) we create new generations of players, who are already more \"taught\" how to eliminate opponents and not be hit. Because the learning process is long in the game it is possible to run an accelerated simulation of x iterations of the game, and then select the standard game mode to see what behavior the players have learned.",
-        "path": "assets/img/aigame.png",
-        "skills": ["Unity", "C#"],
-        "url": "",
-        "github": "https://github.com/Nephasia/AIGame"
-    },
-    {
         "name": "Moving in 3D space",
         "description": "A program that represents a three-dimensional scene using perspective projection. There are 3 solids in the scene around which you can move using scaling, translation and rotation. Shading is used and the solids are covered with a painting algorithm.",
         "path": "assets/img/3d.png",
@@ -62,6 +46,22 @@
         "skills": ["Julia"],
         "url": "",
         "github": "https://github.com/rafallatoszek/Forward-Reverse-Automatic-Differentiation"
+    },
+    {
+        "name": "CpCoin",
+        "description": "The Simplecoin cryptocurrency system implements basic functionality based on distributed ledger (blockchain) technology. Elements included in the project:\n- Block creation\n- Integrity validation\n- Creation of transactions in json format\n- Validation of transactions for double-spending\n- Calculating current account balances\n- Creating digital identity\n- Storing keys in a digital wallet\n- Digitally signing transactions\n- Verifying the validity of signatures\n- Starting network communication\n- Establishing data exchange protocol\n- Reaching consensus (proof-of-work method)",
+        "path": "assets/img/cpcoin.png",
+        "skills": ["Python"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/CpCoin"
+    },
+    {
+        "name": "AI Game",
+        "description": "Simulation of a computer game, where players (red blocks) must shoot down other players with missiles (yellow blocks). The game ends when there is only one player left on the board or when the set time has passed. The player with the most points wins. Points can be scored in many ways: by hitting or eliminating the opponent or even by moving (no campers). At the beginning, players move in a completely random way, but with the help of a genetic algorithm, on the basis of the best individuals (with the most points) we create new generations of players, who are already more \"taught\" how to eliminate opponents and not be hit. Because the learning process is long in the game it is possible to run an accelerated simulation of x iterations of the game, and then select the standard game mode to see what behavior the players have learned.",
+        "path": "assets/img/aigame.png",
+        "skills": ["Unity", "C#"],
+        "url": "",
+        "github": "https://github.com/Nephasia/AIGame"
     },
     {
         "name": "Currency Converter",
@@ -86,5 +86,21 @@
         "skills": ["C#"],
         "url": "",
         "github": "https://github.com/rafallatoszek/DiningPhilosophersProblem"
+    },
+    {
+        "name": "Frontend Frameworks Comparison",
+        "description": "In this paper we discuss 3 most popular frontend technologies: Angular, React.js and Vue.js. The comparison of these solutions is based both on statistical data from the most popular programming sources such as Stack Overflow, GitHub, as well as on the application we have prepared, on the basis of which we will conduct performance tests. The aim of our work is to select the solution that in terms of performance, complexity or availability is the best choice and to present the biggest advantages and disadvantages of a given technology.",
+        "path": "assets/img/comp.png",
+        "skills": ["Angular", "React", "Vue"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/Frontend-Frameworks-Comparison"
+    },
+    {
+        "name": "Automation with Github Actions",
+        "description": "The goal of the project is to perform automation using CI/CD. The application consists of two layers: backend and frontend. The automation will be performed using GitHub Actions and the application will be published on the Azure platform. The steps carried out in the automation: build the environment on the backend and frontend side, run the tests, on the result of which depends on the further steps of automation, publish and deploy the application.",
+        "path": "assets/img/automation.png",
+        "skills": [".NET Core", "Angular", "Azure", "Automation"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/Automation-with-Github-Actions"
     }
 ]
