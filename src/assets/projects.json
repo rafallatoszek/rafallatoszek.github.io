@@ -16,6 +16,30 @@
         "github": ""
     },
     {
+        "name": "Translator",
+        "description": "A web-based translator application using Microsoft Azure services that allows for text translation, language auto-detection, language sentiment analysis, text-to-speech conversion, and text extraction from images.",
+        "path": "assets/img/translator.png",
+        "skills": ["Python", "Django", "Azure"],
+        "url": "",
+        "github": "https://github.com/borowskj/PUCH"
+    },
+    {
+        "name": "Docker Compose Validator",
+        "description": "Simplified validator for a subset of docker compose file syntax in YAML. The validated syntax includes constructs using the keywords: version, services, build, ports, image, volumes, enviroment, networks, and deploy.",
+        "path": "assets/img/validator.png",
+        "skills": ["Python", "Docker"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/Docker-Compose-Validator"
+    },
+    {
+        "name": "Automation with Github Actions",
+        "description": "The goal of the project is to perform automation using CI/CD. The application consists of two layers: backend and frontend. The automation will be performed using GitHub Actions and the application will be published on the Azure platform. The steps carried out in the automation: build the environment on the backend and frontend side, run the tests, on the result of which depends on the further steps of automation, publish and deploy the application.",
+        "path": "assets/img/automation.png",
+        "skills": [".NET Core", "Angular", "Azure", "Automation"],
+        "url": "",
+        "github": "https://github.com/rafallatoszek/Automation-with-Github-Actions"
+    },
+    {
         "name": "AI Game",
         "description": "Simulation of a computer game, where players (red blocks) must shoot down other players with missiles (yellow blocks). The game ends when there is only one player left on the board or when the set time has passed. The player with the most points wins. Points can be scored in many ways: by hitting or eliminating the opponent or even by moving (no campers). At the beginning, players move in a completely random way, but with the help of a genetic algorithm, on the basis of the best individuals (with the most points) we create new generations of players, who are already more \"taught\" how to eliminate opponents and not be hit. Because the learning process is long in the game it is possible to run an accelerated simulation of x iterations of the game, and then select the standard game mode to see what behavior the players have learned.",
         "path": "assets/img/aigame.png",
